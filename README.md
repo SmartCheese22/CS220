@@ -1,4 +1,46 @@
-# [MIPS Processor Implementation](https://github.com/SmartCheese22/CS220/blob/main/MIPS_processor.v)
+# CS220 - Computer Architecture Projects
+
+This repository contains coursework and projects related to CS220 (Computer Architecture), including MIPS assembly programs and a custom MIPS processor implementation in Verilog.
+
+## Repository Contents
+
+- **MIPS Assembly Programs**: Three MIPS assembly programs demonstrating various algorithms
+  - `binary_search.s` - Binary search implementation
+  - `fibonacci.s` - Iterative Fibonacci number generator
+  - `fibonacci_recursive.s` - Recursive Fibonacci number generator
+- **MIPS Processor**: A custom Verilog implementation of a MIPS processor
+  - `MIPS_processor.v` - Complete processor design with FSM
+- **Instructions.pdf**: Detailed project instructions and specifications
+
+## MIPS Assembly Programs
+
+### binary_search.s
+Implements binary search algorithm on a user-provided sorted array. The program:
+- Prompts the user to enter the size of the array (N)
+- Accepts N integers as array elements
+- Prompts for a search value (K)
+- Uses binary search to find K in the array
+- Outputs the index if found, or a not-found message
+
+### fibonacci.s (Iterative)
+Generates the first N Fibonacci numbers using an iterative approach:
+- Prompts the user to enter N
+- Prints the first N Fibonacci numbers
+- Uses efficient iterative calculation
+
+### fibonacci_recursive.s
+Generates the first N Fibonacci numbers using a recursive approach:
+- Prompts the user to enter N
+- Prints the first N Fibonacci numbers
+- Demonstrates recursive function calls in MIPS assembly
+
+### Running Assembly Programs
+To run these MIPS assembly programs, you can use:
+1. **MARS (MIPS Assembler and Runtime Simulator)**: Open the `.s` file in MARS and run
+2. **SPIM**: Load and run using SPIM simulator
+3. **QtSpim**: GUI-based MIPS simulator
+
+## [MIPS Processor Implementation](https://github.com/SmartCheese22/CS220/blob/main/MIPS_processor.v)
 
 This repository contains a Verilog implementation of a simple MIPS processor designed to execute a subset of MIPS instructions. The processor is implemented using a finite state machine (FSM) with seven distinct states.
 
